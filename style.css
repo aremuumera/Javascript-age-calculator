@@ -1,0 +1,80 @@
+
+*{
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    width: 100%;
+    background-image:url(./wallpaperflare.com_wallpaper\ \(7\).jpg);
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 100vh !important;
+    position: relative !important;
+}
+.calculator{
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10% !important;
+    padding-top: 10% !important;
+   
+}
+.calculator h1{
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 40px !important;
+}
+.input-box{
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer ;
+}
+.input-box input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px !important;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer !important;
+}
+.input-box .btn{
+    padding:15px 30px ;
+    background: #111;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    font-weight:600 ;
+    color: #fff;
+    cursor: pointer;
+}
+.input-box .btn:hover{
+    transform: scale(1.1);
+}
+.input-box input::-webkit-calender-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-position: calc(100%-10px);
+    position: absolute;
+    background-size:30px;
+    cursor:pointer;
+}
+.container h4{
+    padding-top: 50px;
+    padding-left: 12%;
+    color:#fff;
+    font-size: 1.8rem;
+}
