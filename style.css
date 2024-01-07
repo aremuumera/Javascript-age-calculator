@@ -18,7 +18,7 @@
     width: 100%;
     max-width: 600px;
     margin-left: 10% !important;
-    padding-top: 10% !important;
+    padding-top: 12% !important;
    
 }
 .calculator h1{
@@ -78,3 +78,37 @@
     color:#fff;
     font-size: 1.8rem;
 }
+
+@media screen and (max-width: 700px){
+    .calculator{
+        max-width: 500px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:570px) {
+    .calculator{
+        max-width: 420px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .calculator{
+        margin-left: 10px !important;
+        max-width: 360px;
+    }
+    .calculator h1{
+        font-size:1.4rem;
+        margin-top: 40%!important;
+    }
+    .input-box{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 360px){
+    .calculator{
+        max-width: 320px !important;
+        width: 100%;
+        margin: 0px auto 0px !important;
+    }
+} 

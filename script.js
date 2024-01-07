@@ -52,7 +52,7 @@ console.log(userInput.max);
             m3 = 11;
             y3--;
         } 
-        ageResult.innerHTML = `You are ${y3}yrs, ${m3}months, ${d3}days`;
+        ageResult.innerHTML = `You are ${y3}yrs, ${m3}months, ${d3}days old.`;
 
     }
    
